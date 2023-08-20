@@ -5,10 +5,9 @@ name: Go
 
 on:
   pull_request:
-    types:
-      - opened
     branches:
-      - [ "main", "feature/**" ]
+      - main
+      - feature/**
 
 jobs:
 
